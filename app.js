@@ -10,6 +10,7 @@ function pesquisar() {
 
     // Itera sobre cada dado da lista de dados
     for (let dado of dados) {
+        console.log(dado.titulo.includes(campoPesquisa))
         // Cria um novo elemento HTML para cada resultado
         resultados += `
             <div class="item-resultado">
